@@ -20,6 +20,8 @@ struct node* reverse(struct node* head) {
         prev = current;
         current = next;
     }
+    // lawda lehsun 
+    printf("hello lawde");
 
     head = prev;
     return head;
